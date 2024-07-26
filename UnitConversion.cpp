@@ -40,11 +40,11 @@ int main ()
             Result = Value * 1.057008707E-16;
         } else {
             cout << "Invalid To unit." << endl;
-            return 1; // إنهاء البرنامج إذا كانت الوحدة غير صحيحة
+            return 1; 
         }
     } else {
         cout << "Invalid From unit." << endl;
-        return 1; // إنهاء البرنامج إذا كانت الوحدة غير صحيحة
+        return 1; 
     }
     cout << fixed << setprecision(6);
     cout << "The result of value (" << Value << ") converted from " << Fromunit << " to " << Tounit << " is " << Result << endl;
